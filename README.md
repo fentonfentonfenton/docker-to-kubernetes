@@ -29,6 +29,10 @@ The `nginx` container runs a script to grab some news headlines on runtime, this
 
 In `docker-compose` you only run one container, therefore only seeing a bit of news - but what if you want to show more news to more people, at random? Maybe deploy in `kubernetes` and scale up the instance count? Won't I need a service?
 
+What if you want to force the news to update more? Will you need a sidecar?
+
+What if you want to put in dynamic HTML rather than this stupid script?
+
 
 ### Docker
 
