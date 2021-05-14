@@ -48,7 +48,7 @@ kubectl describe deployment nginx-deployment
 
 kubectl exec -it deployment/nginx-deployment bash
 
-kubectl scale deployment nginx-deployment --replicas 3# docker-to-kubernetes
+kubectl scale deployment nginx-deployment --replicas 3
 
 
 kubectl delete deployment nginx-deployment
