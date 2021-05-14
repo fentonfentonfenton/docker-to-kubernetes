@@ -1,7 +1,7 @@
-services:
-  nginx:
-    image: nginx
-    ports:
-      - "8080:80"
-    volumes:
-      - .:/docker-entrypoint.d/
+# services:
+#   nginx:
+#     image: nginx
+#     ports:
+#       - "8080:80"
+#     volumes:
+#       - .:/docker-entrypoint.d/
