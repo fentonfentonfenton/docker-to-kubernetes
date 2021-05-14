@@ -33,6 +33,8 @@ What if you want to force the news to update more? Will you need a sidecar?
 
 What if you want to put in dynamic HTML rather than this stupid script?
 
+Go through files and comment out line by line to make sure you understand what they do.
+
 
 ### Docker
 
@@ -58,3 +60,7 @@ kubectl scale deployment nginx-deployment --replicas 3
 kubectl delete deployment nginx-deployment
 kubectl delete service nginx-service
 ```
+
+
+
+
