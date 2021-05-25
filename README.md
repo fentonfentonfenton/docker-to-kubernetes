@@ -25,11 +25,11 @@ Hi!
 
 This is a crappy little repo to illustrate running something in compose and k8s.
 
-The `nginx` container runs a script to grab some news headlines on runtime, this will be at `localhost:8080` in `docker` and `localhost:30000` on `k8s` 
+The `nginx` container runs a script to grab some random content on runtime, this will be at `localhost:8080` in `docker` and `localhost:30000` on `k8s` 
 
-In `docker-compose` you only run one container, therefore only seeing a bit of news - but what if you want to show more news to more people, at random? Maybe deploy in `kubernetes` and scale up the instance count? Won't I need a service?
+In `docker-compose` you only run one container, so you always see the sane random words - but what if you want to show more words to more people, at random? Maybe deploy in `kubernetes` and scale up the instance count? Won't I need a service?
 
-What if you want to force the news to update more? Will you need a sidecar?
+What if you want to force the words to update more? Will you need a sidecar?
 
 What if you want to put in dynamic HTML rather than this stupid script?
 
